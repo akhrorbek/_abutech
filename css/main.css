@@ -388,8 +388,130 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1157px;
+  max-width: 1321px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.abuheader {
+  padding-top: 20px;
+}
+
+.abuheader__logo-link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.abuheader__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.abuheader__abunav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+
+.abuheader__navlist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 35px;
+}
+
+.abuheader__navitem + .abuheader__navitem {
+  margin-left: 35px;
+}
+
+.abuheader__tel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #00094A;
+}
+
+.abuheader__verline {
+  border: 1px solid #00094A;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.abuheader__selector {
+  display: inline-block;
+  border: 0px;
+  outline: 0px;
+  scroll-behavior: smooth;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 35px;
+}
+
+.abuheader__option {
+  font-size: 12px;
+}
+
+.abuheader__menu {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.abuheader__menu-text {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #00094A;
+  margin-right: 10px;
+}
+
+.abuheader__menulist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 22px;
+  height: 2px;
+  background-color: #00094A;
+  margin: 4px 0;
+}
+
+.btn {
+  width: 186px;
+  height: 42px;
+  background: #00094A;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  margin-right: 35px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn:active {
+  opacity: 0.8;
 }
 /*# sourceMappingURL=main.css.map */

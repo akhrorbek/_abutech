@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Scss-bem-starter</title>
+    <title>Abutech_IT_Company</title>
 </head>
+
 <body>
     <!--HEAD-->
-    <header></header>
+    <header class="abuheader">
+        <div class="container">
+            <div class="abuheader__wrapper">
+                <a class="abuheader__logo-link" href="./index.html">
+                    <img class="abuheader__logo" src="./images/abu-logo.svg" alt="Abutech Logo" width="126" height="28">
+                </a>
+                <navbar class="abuheader__abunav">
+                    <ul class="abuheader__navlist">
+                        <li class="abuheader__navitem">
+                            <img src="./images/phone-call.svg" alt="Phone image" width="20" height="20">
+                            <span class="abuheader__tel">+998 90 123 45 67</span>
+                        </li>
+                        <li class="abuheader__navitem">
+                            <span class="abuheader__verline"></span>
+                        </li>
+                        <li class="abuheader__navitem">
+                            <img src="./images/sun.svg" alt="Sun iconik" width="24" height="24">
+                        </li>
+                    </ul>
+                    <select class="abuheader__selector" name="language">
+                        <option class="abuheader__option" value="EN">EN</option>
+                        <option class="abuheader__option" value="RU">RU</option>
+                        <option class="abuheader__option" value="UZ">UZ</option>
+                    </select>
+                    <button class="btn">
+                        ОСТАВИТЬ ЗАЯВКУ
+                    </button>
+                    <span class="abuheader__menu-text">МЕНЮ</span>
+                    <menu class="abuheader__menu">
+                        <div class="abuheader__menulist"></div>
+                        <div class="abuheader__menulist"></div>
+                        <div class="abuheader__menulist"></div>
+                    </menu>
+                </navbar>
+            </div>
+        </div>
+    </header>
     <!--MAIN-->
     <main></main>
     <!--FOOTER-->
     <footer></footer>
 </body>
+
 </html>

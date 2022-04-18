@@ -1,1 +1,16 @@
 //BU YERDA SAYTIMIZNING HEADER QISMIGA ISHLOV BERILADI
+
+.abuheader {
+    padding-top: 20px;
+
+    &__logo-link {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+}

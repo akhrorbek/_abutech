@@ -1,1 +1,67 @@
 //BU YERDA SAYTIMIZNI NAVBAR QISMIGA ISHLOV BERILADI
+
+.abuheader {
+    &__abunav {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+    &__navlist {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-right: 35px;
+    }
+    &__navitem + &__navitem {
+        margin-left: 35px;
+    }
+    &__tel {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #00094A;
+    }
+    &__verline {
+        border: 1px solid #00094A;
+        transform: rotate(90deg);
+
+    }
+
+    &__selector {
+        display: inline-block;
+        border: 0px;
+        outline: 0px;
+        scroll-behavior: smooth;
+        font-size: 12px;
+        cursor: pointer;
+        margin-right: 35px;
+    }
+    &__option {
+        font-size: 12px;
+    }
+    &__menu {
+        display: inline-block;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+    }
+    &__menu-text {
+        display: inline-block;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #00094A;
+        margin-right: 10px;
+    }
+    &__menulist {
+        display: flex;
+        width: 22px;
+        height: 2px;
+        background-color:#00094A;
+        margin: 4px 0;
+    }
+}
