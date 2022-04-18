@@ -1,11 +1,8 @@
 //BU YERDA SAYTIMIZNI NAVBAR QISMIGA ISHLOV BERILADI
 
-.abuheader {
-    &__abunav {
+.abunav {
         display: flex;
         align-items: center;
-        margin-left: auto;
-    }
     &__navlist {
         display: flex;
         margin: 0;
@@ -29,13 +26,13 @@
         transform: rotate(90deg);
 
     }
-
     &__selector {
         display: inline-block;
         border: 0px;
         outline: 0px;
         scroll-behavior: smooth;
         font-size: 12px;
+        font-weight: 600;
         cursor: pointer;
         margin-right: 35px;
     }

@@ -1,7 +1,7 @@
 //BU YERDA SAYTIMIZNING HEADER QISMIGA ISHLOV BERILADI
 
 .abuheader {
-    padding-top: 20px;
+    padding: 16px 0;
 
     &__logo-link {
         margin: 0;
@@ -12,5 +12,6 @@
     &__wrapper {
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 }

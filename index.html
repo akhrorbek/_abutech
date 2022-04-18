@@ -14,42 +14,147 @@
     <header class="abuheader">
         <div class="container">
             <div class="abuheader__wrapper">
-                <a class="abuheader__logo-link" href="./index.html">
+                <a class="abuheader__logo-link" href="./index.html" target="_blank">
                     <img class="abuheader__logo" src="./images/abu-logo.svg" alt="Abutech Logo" width="126" height="28">
                 </a>
-                <navbar class="abuheader__abunav">
-                    <ul class="abuheader__navlist">
-                        <li class="abuheader__navitem">
+                <navbar class="abunav">
+                    <ul class="abunav__navlist">
+                        <li class="abunav__navitem">
                             <img src="./images/phone-call.svg" alt="Phone image" width="20" height="20">
-                            <span class="abuheader__tel">+998 90 123 45 67</span>
+                            <span class="abunav__tel">+998 90 123 45 67</span>
                         </li>
-                        <li class="abuheader__navitem">
-                            <span class="abuheader__verline"></span>
+                        <li class="abunav__navitem">
+                            <span class="abunav__verline"></span>
                         </li>
-                        <li class="abuheader__navitem">
+                        <li class="abunav__navitem">
                             <img src="./images/sun.svg" alt="Sun iconik" width="24" height="24">
                         </li>
                     </ul>
-                    <select class="abuheader__selector" name="language">
-                        <option class="abuheader__option" value="EN">EN</option>
-                        <option class="abuheader__option" value="RU">RU</option>
-                        <option class="abuheader__option" value="UZ">UZ</option>
+                    <select class="abunav__selector" name="language">
+                        <option class="abunav__option" value="EN">EN</option>
+                        <option class="abunav__option" value="RU">RU</option>
+                        <option class="abunav__option" value="UZ">UZ</option>
                     </select>
                     <button class="btn">
                         ОСТАВИТЬ ЗАЯВКУ
                     </button>
-                    <span class="abuheader__menu-text">МЕНЮ</span>
-                    <menu class="abuheader__menu">
-                        <div class="abuheader__menulist"></div>
-                        <div class="abuheader__menulist"></div>
-                        <div class="abuheader__menulist"></div>
+                    <span class="abunav__menu-text">МЕНЮ</span>
+                    <menu class="abunav__menu">
+                        <div class="abunav__menulist"></div>
+                        <div class="abunav__menulist"></div>
+                        <div class="abunav__menulist"></div>
                     </menu>
                 </navbar>
             </div>
         </div>
     </header>
     <!--MAIN-->
-    <main></main>
+    <main>
+        <div class="hero">
+            <div class="container">
+
+                <!--HERO-TOP-->
+                <div class="hero__wrapper">
+                    <div class="hero__hpawrap">
+                        <!--(class="hpawrap":heading+paragraph+link)-->
+                        <h1 class="hero__heading">izlamasdan topamiz :)</h1>
+                        <p class="hero__paragraph">Abutech has been eligible to provide the best of services to our
+                            clients
+                            across the world remaining to our.
+                        </p>
+                        <a class="hero__link" href="#">
+                            Смотреть видео
+                            <img class="hero__link-image" src="/images/Group961.svg" alt="" width="27" height="27">
+                        </a>
+                    </div>
+                </div>
+
+                <!--HERO-TEAM-NUMBER-->
+                <ul class="hero__list">
+                    <li class="hero__item">
+                        <h2 class="hero__item-header">67+</h2>
+                        <p class="hero__item-paragraph">выполненных проектов</p>
+                    </li>
+                    <li class="hero__item">
+                        <h2 class="hero__item-header">40+</h2>
+                        <p class="hero__item-paragraph">человек в команде</p>
+                    </li>
+                    <li class="hero__item">
+                        <h2 class="hero__item-header">230+</h2>
+                        <p class="hero__item-paragraph">бизнесов продвинули</p>
+                    </li>
+                    <li class="hero__item">
+                        <h2 class="hero__item-header">4+</h2>
+                        <p class="hero__item-paragraph">лет опыта на рынке</p>
+                    </li>
+                    <li class="hero__item">
+                        <h2 class="hero__item-header">147+</h2>
+                        <p class="hero__item-paragraph">просмотров на Behance</p>
+                    </li>
+                    <li class="hero__item">
+                        <h2 class="hero__item-header">12</h2>
+                        <p class="hero__item-paragraph">выигранных футбольных кубков</p>
+                    </li>
+                </ul>
+
+                <!--HERO-SERVICES-->
+                <div class="hero__service">
+                    <h3 class="hero__service-heading">ЧТО МЫ</h3>
+                    <p class="hero__service-paragraph">ПРЕДЛАГАЕМ</p>
+                </div>
+                <ul class="hero__service-list">
+                    <li class="hero__service-item">
+                        <img class="hero__service-item-image" src="/images/service-pic1.png" alt="Abutech service pics"
+                            width="100" height="100">
+                        <h4 class="hero__service-item-header">Программные обеспечеия</h4>
+                        <p class="hero__service-item-paragraph">В них входять веб-сайты, админ панели, телеграм-боты,
+                            системные решение и много другие</p>
+                    </li>
+                    <li class="hero__service-item">
+                        <img class="hero__service-item-image" src="/images/service-pic2.png" alt="Abutech service pics"
+                            width="100" height="100">
+                        <h4 class="hero__service-item-header">Дизайн и UX&UI</h4>
+                        <p class="hero__service-item-paragraph">Lorem ipsum dolor sit amet, consec tet ur adipiscing
+                            elit. Donec elementum tellus.</p>
+                    </li>
+                    <li class="hero__service-item">
+                        <img class="hero__service-item-image" src="/images/service-pic4.png" alt="Abutech service pics"
+                            width="100" height="100">
+                        <h4 class="hero__service-item-header">SMM и маркетинг</h4>
+                        <p class="hero__service-item-paragraph">Lorem ipsum dolor sit amet, consec tet ur adipiscing
+                            elit. Donec elementum tellus.</p>
+                    </li>
+                    <li class="hero__service-item">
+                        <img class="hero__service-item-image" src="/images/service-pic3.png" alt="Abutech service pics"
+                            width="100" height="100">
+                        <h4 class="hero__service-item-header">Продакшн и продвижение</h4>
+                        <p class="hero__service-item-paragraph">Lorem ipsum dolor sit amet, consec tet ur adipiscing
+                            elit. Donec elementum tellus.</p>
+                    </li>
+                </ul>
+
+                <!--HERO-SERVICE-OFFER-->
+                <div>
+                    <div class="hero__service-offer">
+                        <h5 class="hero__service-offer-heading">НЕ ЗНАЕТЕ</h5>
+                        <h6 class="hero__service-offer-header">КАКАЯ
+                            <span class="hero__service-offerheader-part">УСЛУГА</span>
+                            ПОДОЙДЕТ ИМЕННО ВАМ?
+                            </6>
+                            <p class="hero__service-offer-paragraph">
+                                Оставьте заяавку - наши менеджеры разберут вашу текущую ситуацию и помогут подобрать
+                                услугу для масштабирования бизнеса
+                            </p>
+                    </div>
+                    <div class="hero__button-wrapper">
+                        <button class="btn">
+                            узнать больше
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <!--FOOTER-->
     <footer></footer>
 </body>

@@ -1,1 +1,45 @@
 //BU YERDA BIZNING FONTLAR YASHAYDI
+@font-face {
+    font-family:"Montserrat";
+    src: url("../fonts/Montserrat-Bold.ttf"),
+         url("../fonts/Montserrat-Bold.woff"),
+         url("../fonts/Montserrat-Bold.woff2");
+    font-weight: 700;
+}
+@font-face {
+    font-family:"Montserrat";
+    src: url("../fonts/Montserrat-ExtraBold.ttf"),
+         url("../fonts/Montserrat-ExtraBold.woff"),
+         url("../fonts/Montserrat-ExtraBold.woff2");
+    font-weight: 900;
+}
+@font-face {
+    font-family:"Montserrat";
+    src: url("../fonts/Montserrat-Medium.ttf"),
+         url("../fonts/Montserrat-Medium.woff"),
+         url("../fonts/Montserrat-Medium.woff2");
+    font-weight: 500;
+}
+@font-face {
+    font-family:"Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf"),
+         url("../fonts/Montserrat-Regular.woff"),
+         url("../fonts/Montserrat-Regular.woff2");
+    font-weight: 400;
+}
+@font-face {
+    font-family:"Montserrat";
+    src: url("../fonts/Montserrat-SemiBold.ttf"),
+         url("../fonts/Montserrat-SemiBold.woff"),
+         url("../fonts/Montserrat-SemiBold.woff2");
+    font-weight: 600;
+}
+/*
+@font-face {
+    font-family:"Montserrat";
+    src: url("../fonts/Montserrat-SemiBoldItalic.ttf"),
+         url("../fonts/Montserrat-SemiBoldItalic.woff"),
+         url("../fonts/Montserrat-SemiBoldItalic.woff2");
+    font-weight: 600;
+}
+*/
