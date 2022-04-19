@@ -560,6 +560,10 @@ img {
   opacity: 0.8;
 }
 
+.btn--hero {
+  margin-top: 40px;
+}
+
 .hero__wrapper {
   width: 1282px;
   background-image: url("/images/hero-background-img.png");
@@ -798,11 +802,9 @@ img {
   opacity: 0.8;
 }
 
-.hero__button-wrapper {
-  position: absolute;
-  width: 186px;
-  height: 42px;
-  left: 1414px;
-  top: 1347px;
+.hero__service-offer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */

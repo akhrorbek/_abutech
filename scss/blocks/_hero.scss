@@ -209,12 +209,8 @@
         color: #00094A;
         opacity: 0.8;
     }
-
-    &__button-wrapper {
-        position: absolute;
-        width: 186px;
-        height: 42px;
-        left: 1414px;
-        top: 1347px;
+    &__service-offer-wrapper {
+        display: flex;
     }
+
 }

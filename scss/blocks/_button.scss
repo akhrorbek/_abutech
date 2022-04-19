@@ -14,11 +14,16 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-right: 10px;
-}
-.btn:hover {
-    opacity: 0.9;
-    transition: 0.3s;
-}
-.btn:active {
-    opacity:0.8;
+
+    &:hover {
+        opacity: 0.9;
+        transition: 0.3s;
+    }
+
+    &:active {
+        opacity: 0.8;
+    }
+    &--hero {
+        margin-top: 40px;
+    }
 }
